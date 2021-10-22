@@ -67,13 +67,35 @@ body {
   width: 300px;
 }
 
-.btn {
+.btn-login {
+  margin-top: 30px;
   float: right;
-  margin-top: 35px;
+  margin-right: 25px;
+  color: white;
+  background: none !important;
+  border-radius: 5px;
+  border: solid #FFAF00 2px !important;
+}
+.btn-regis {
+  margin-top: 30px;
+  float: right;
+  color: white;
+  background: #FFAF00 !important;
+  border-radius: 5px;
+  border: solid #FFAF00 2px !important;
 }
 
-.btn-space {
-  margin-right: 25px;
+.btn-login:hover {
+  background: #ffaf02 !important;
+}
+.btn-login:focus {
+  background: #ffaf02 !important;
+}
+.btn-regis:hover {
+  background: #ffaf02 !important;
+}
+.btn-regis:focus {
+  background: #ffaf02 !important;
 }
 
 .img-detail{
@@ -226,6 +248,7 @@ footer {
   background: #FFAF00;
 }
 
+
 input,
 textarea {
   border: 1px solid #eeeeee;
@@ -323,6 +346,16 @@ input[type="number"] {
 .price-detail {
   font-weight: 700;
   color: #FFAF00;
-  text-align: left;
-  margin-right: 55px;
 }
+
+.price-details{
+  font-weight: 700;
+  color: #FFAF00;
+  margin-right: 60px;
+}
+
+.btn-flex-end {
+  display: flex;
+  justify-content: end;
+}
+

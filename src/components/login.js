@@ -8,7 +8,7 @@ function Login() {
 
     return (
         <>
-        <Button variant="outline-warning" className="btn-space" onClick={handleShow}>
+        <Button  className="btn-login" onClick={handleShow}>
             Login
         </Button>
 
