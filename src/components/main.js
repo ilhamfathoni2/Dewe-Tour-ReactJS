@@ -1,5 +1,7 @@
 import Icon from '../srassets/Icon.png';
 
+import Login from './login';
+
 import Strenght from "./Strenght";
 import Product from './product';
 import Footer from './footer';
@@ -11,7 +13,8 @@ function Main() {
         <div className="black">
             <div className="container">
                 <img src={Icon} className="icon-web" alt="icon"/>
-              
+             
+                <Login />
                 <div className="title-hero">
                     <h2 className="text-title">Explore</h2>
                     <h2 className="text-title-second">your amazing city together</h2>
