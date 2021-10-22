@@ -9,7 +9,7 @@ function Register() {
     return (
         <>
 
-        <Button variant="warning" onClick={handleShow}>
+        <Button className="btn-regis" onClick={handleShow}>
             Register
         </Button>
 
