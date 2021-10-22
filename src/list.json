@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Amerika Fun Vacations..",
+        "image": "../assets/img1.jpg",
+        "price": "IDR. 12.000.000",
+        "country": "America"
+    },
+    {
+        "name": "Onsen Fun Vacations..",
+        "image": "../assets/img2.jpg",
+        "price": "IDR. 10.000.000",
+        "country": "Japan"
+    },
+    {
+        "name": "Fuji Fun Vacations..",
+        "image": "../assets/img3.jpg",
+        "price": "IDR. 14.000.000",
+        "country": "Japan"
+    },
+    {
+        "name": "Viet Fun Vacations..",
+        "image": "../assets/img3.jpg",
+        "price": "IDR. 9.000.000",
+        "country": "Vietnam"
+    },
+    {
+        "name": "Amerika Fun Vacations..",
+        "image": "../assets/img4.jpg",
+        "price": "IDR. 8.000.000",
+        "country": "Brazil"
+    },
+    {
+        "name": "Amerika Fun Vacations..",
+        "image": "../assets/img5.jpg",
+        "price": "IDR. 24.000.000",
+        "country": "New Zeland"
+    }
+]
