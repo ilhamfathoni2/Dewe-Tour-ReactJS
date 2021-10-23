@@ -15,7 +15,7 @@ function App() {
             <Route exact path="/" component={Main} />
             <Route exact path="/details" component={Details} />
             <Route exact path="/payment" component={Payment} />
-            <Route exact path="/profil" component={Profil} />
+            <Route exact path="/profile" component={Profil} />
         </Switch>
     </BrowserRouter>
   );
