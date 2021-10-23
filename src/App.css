@@ -1,5 +1,6 @@
 * {
   font-family: 'Poppins', sans-serif;
+  text-decoration: none !important;
   padding: 0;
   margin: 0;
 }
@@ -375,4 +376,27 @@ input[type="number"] {
   text-align: left;
   font-weight: 700;
   font-size: 30px;
+}
+
+.b-user-log {
+  margin-left: 20px;
+  color: #181818;
+}
+
+.element.style {
+  position: absolute !important;
+  inset: 0px auto auto 0px !important;
+  transform: translate3d(70px, 82px, 0px) !important;
+}
+
+.icon-after-login {
+  width: 20px;
+}
+
+.dropdown-after-login {
+  float: right;
+  margin-top: 18px;
+  margin-right: 25px;
+  background: none !important;
+  border: none !important;
 }

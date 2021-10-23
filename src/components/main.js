@@ -5,6 +5,7 @@ import Register from './register';
 import Strenght from "./Strenght";
 import Product from './product';
 import Footer from './footer';
+import DropdownProfile from './drop-profile';
 
 function Main() {
   return (
@@ -15,6 +16,7 @@ function Main() {
                 <img src={Icon} className="icon-web" alt="icon"/>
                 <Register />
                 <Login />
+                <DropdownProfile />
                 <div className="title-hero">
                     <h2 className="text-title">Explore</h2>
                     <h2 className="text-title-second">your amazing city together</h2>
