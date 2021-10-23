@@ -359,3 +359,8 @@ input[type="number"] {
   justify-content: end;
 }
 
+.inv{
+  width: 138px;
+  height: 138px;
+  border: #FFAF00 4px solid;
+}
