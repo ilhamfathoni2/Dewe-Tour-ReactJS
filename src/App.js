@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Switch} from "react-router-dom";
 import Main from "./components/main";
 import Details from './pages/detail';
 import Payment from "./pages/payment";
+import Profil from "./pages/profil";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Route exact path="/" component={Main} />
             <Route exact path="/details" component={Details} />
             <Route exact path="/payment" component={Payment} />
+            <Route exact path="/profil" component={Profil} />
         </Switch>
     </BrowserRouter>
   );

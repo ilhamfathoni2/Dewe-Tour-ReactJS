@@ -204,7 +204,7 @@ body {
   font-weight: 600;
 }
 
-.text-p {
+.text-ps {
   margin-top: 15px;
   font-weight: 200;
 }
@@ -363,4 +363,16 @@ input[type="number"] {
   width: 138px;
   height: 138px;
   border: #FFAF00 4px solid;
+}
+
+.avatar {
+  position: absolute;
+  margin-top: 40px;
+  width: 250px;
+}
+
+.text-p {
+  text-align: left;
+  font-weight: 700;
+  font-size: 30px;
 }

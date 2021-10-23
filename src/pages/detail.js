@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import Headers from "../components/header"
 import Footer from "../components/footer";
 import imgHead from '../srassets/d11.png'
@@ -104,7 +105,10 @@ const Details = () => {
         <hr/>
         <div className="container">
           <div className="btn-flex-end">
-            <button className="btn btn-warning mt-3 mb-4"><b className="text-white">BOOK NOW</b></button>
+            <Link to="/payment">
+              <button className="btn btn-warning mt-3 mb-4"><b className="text-white">BOOK NOW</b></button>
+            </Link>
+            
           </div>
         </div>
         </div>
