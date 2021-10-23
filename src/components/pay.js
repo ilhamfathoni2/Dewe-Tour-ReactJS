@@ -1,5 +1,6 @@
 import Icon from '../srassets/IconPay.png';
 import Invoice from '../srassets/struck.png';
+import ConfirmPay from './confirmpay';
 
 function Pay() {
     return (
@@ -62,7 +63,7 @@ function Pay() {
                 </div>
             </div>
             <div className="d-flex justify-content-end mb-0 mt-5">
-                <button type="button" className="btn btn-warning bold text-white col-3 p-2">PAY</button>
+                <ConfirmPay/>
             </div>
         </div>
       </>
