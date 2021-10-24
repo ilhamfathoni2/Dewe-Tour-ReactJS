@@ -9,6 +9,7 @@ import Payment from "./pages/payment";
 import Profil from "./pages/profil";
 import Transaction from "./pages/transaction";
 import IncomeTrip from "./pages/incom-trip";
+import Addtrip from "./pages/add-trip";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
             <Route exact path="/profile" component={Profil} />
             <Route exact path="/transaction" component={Transaction} />
             <Route exact path="/trip" component={IncomeTrip} />
-            {/* <Route exact path="/add-trip" component={IncomeTrip} /> */}
+            <Route exact path="/add-trip" component={Addtrip} />
         </Switch>
     </BrowserRouter>
   );
