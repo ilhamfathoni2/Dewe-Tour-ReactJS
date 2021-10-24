@@ -7,6 +7,7 @@ import Main from "./components/main";
 import Details from './pages/detail';
 import Payment from "./pages/payment";
 import Profil from "./pages/profil";
+import Transaction from "./pages/transaction";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route exact path="/details" component={Details} />
             <Route exact path="/payment" component={Payment} />
             <Route exact path="/profile" component={Profil} />
+            <Route exact path="/transaction" component={Transaction} />
         </Switch>
     </BrowserRouter>
   );
