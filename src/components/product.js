@@ -3,8 +3,8 @@ import data from "../list.json";
 function Product() {
   return (
     <>
-        <h3>Group Tour</h3>
-        <div className="container-d-flex-wrap">
+      <div className="container mb-10">
+        <div className="d-flex flex-wrap justify-content-center">
         {data.map(item => (
             <div className="card-product">
                 <img className="img-product" src={item.image} alt="img" />
@@ -14,6 +14,7 @@ function Product() {
             </div>
         ))}
         </div>
+      </div>
     </>
   );
 }

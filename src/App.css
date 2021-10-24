@@ -244,9 +244,12 @@ h3 {
 }
 
 footer {
-  margin-top: 100px;
-  padding: 15px 0;
+  position: fixed;
+  bottom: 0;
+  padding: 13px 0;
+  width: 100%;
   background: #FFAF00;
+  text-align: center;
 }
 
 
@@ -425,4 +428,18 @@ input[type="number"] {
 
 td,th {
   padding: 15px !important;
+}
+
+.add-trip {
+  font-weight: 600;
+  color: white;
+}
+
+.incom-trip {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.mb-10 {
+  margin-bottom: 150px;
 }

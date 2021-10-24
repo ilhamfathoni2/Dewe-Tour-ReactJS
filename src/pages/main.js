@@ -1,11 +1,11 @@
 import Icon from '../srassets/Icon.png';
 
-import Login from './login';
-import Register from './register';
-import Strenght from "./Strenght";
-import Product from './product';
-import Footer from './footer';
-import DropdownProfile from './drop-profile';
+import Login from '../components/login';
+import Register from '../components/register';
+import Strenght from "../components/Strenght";
+import Product from '../components/product';
+import Footer from '../components/footer';
+import DropdownProfile from '../components/drop-profile';
 
 function Main() {
   return (
@@ -30,6 +30,7 @@ function Main() {
         </div>
     </div>
     <Strenght/>
+    <h3>Group Tour</h3>
     <Product/>
     <Footer/>
     </>
