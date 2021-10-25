@@ -6,7 +6,7 @@ function History() {
         <>
         <div className="container mt-5">
             <h4><b>History Trip</b></h4>
-            <div className="card">
+            <div className="card mb-10">
                 <div className="card-body p-5">
                     <div className="d-flex justify-content-between p-0 m-0">
                         <img src={Icon} alt="icon" />
@@ -38,7 +38,7 @@ function History() {
                             <p>TXK0012</p>
                         </div>
                     </div>
-                    <table class="table table-striped">
+                    <table className="table table-striped">
                     <thead>
                         <tr>
                             <th scope="col">No</th>

@@ -1,11 +1,10 @@
 import Icon from '../srassets/IconPay.png';
 import Invoice from '../srassets/struck.png';
-import ConfirmPay from './confirmpay';
 
 function Pay() {
     return (
         <>
-        <div className="container mt-5">
+        <div className="container mt-5 mb-5">
             <div className="card">
                 <div className="card-body p-5">
                     <div className="d-flex justify-content-between p-0 m-0">
@@ -38,7 +37,7 @@ function Pay() {
                             <p>Upload payment proof</p>
                         </div>
                     </div>
-                    <table class="table table-striped">
+                    <table className="table table-striped">
                     <thead>
                         <tr>
                             <th scope="col">No</th>
@@ -61,9 +60,6 @@ function Pay() {
                         <h5>Total : <b className="text-danger">IDR 12.000.000</b></h5>
                     </div>
                 </div>
-            </div>
-            <div className="d-flex justify-content-end mb-0 mt-5">
-                <ConfirmPay/>
             </div>
         </div>
       </>

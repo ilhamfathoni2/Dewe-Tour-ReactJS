@@ -2,7 +2,8 @@ import { useState } from 'react';
 import { Link } from "react-router-dom";
 import { Modal, Button } from 'react-bootstrap';
 
-function ConfirmPay() {
+function Confirm() {
+
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
@@ -19,11 +20,12 @@ function ConfirmPay() {
                 </Modal.Header>
                 <Modal.Body>
                     <h5 className="text-center">Your payment will be confirmed whithin 1 X 24 hours</h5>
-                    <h5 className="text-center">To see orders clik <Link to="/payment"><b>Here</b></Link> thank you</h5>
+                    <h5 className="text-center">To see orders clik <Link to="/payment-waiting"><b>Here</b></Link> thank you</h5>
                 </Modal.Body>
             </Modal> 
         </>
     );
-  }
+}
   
-export default ConfirmPay;
+export default Confirm;
+  

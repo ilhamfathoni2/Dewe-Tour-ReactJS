@@ -11,7 +11,7 @@ function IncomeTrip() {
                 <div className="d-flex justify-content-between">
                     <h4 className="incom-trip">Incoming Trip</h4>
                     <Link to="/add-trip">
-                        <button class="btn btn-warning add-trip">Add Trip</button>
+                        <button className="btn btn-warning add-trip">Add Trip</button>
                     </Link>
                 </div>
             </div>

@@ -16,56 +16,56 @@ function Personal() {
                         <img className="avatar" src={Avatar} alt="avatar" />
                     </div>
                     
-                    <div class="row mt-2">
-                        <div class="col-sm-1 p-0">
-                            <div class="card-body">
+                    <div className="row mt-2">
+                        <div className="col-sm-1 p-0">
+                            <div className="card-body">
                                 <img src={profilIcon} alt="icon" />
                             </div>
                         </div>
-                        <div class="col-sm-5">
-                            <div class="card-body">
+                        <div className="col-sm-5">
+                            <div className="card-body">
                                 <h6><b>Barak Obama</b> <br/>
                                 <p>Full Name</p>
                                 </h6>
                             </div>
                         </div>
                     </div>
-                    <div class="row mt-2">
-                        <div class="col-sm-1 p-0">
-                            <div class="card-body">
+                    <div className="row mt-2">
+                        <div className="col-sm-1 p-0">
+                            <div className="card-body">
                                 <img src={emailIcon} alt="icon" />
                             </div>
                         </div>
-                        <div class="col-sm-5">
-                            <div class="card-body">
+                        <div className="col-sm-5">
+                            <div className="card-body">
                                 <h6><b>obama@gmail.com</b> <br/>
                                 <p>Email</p>
                                 </h6>
                             </div>
                         </div>
                     </div>
-                    <div class="row mt-2">
-                        <div class="col-sm-1 p-0">
-                            <div class="card-body">
+                    <div className="row mt-2">
+                        <div className="col-sm-1 p-0">
+                            <div className="card-body">
                                 <img src={phoneIcon} alt="icon" />
                             </div>
                         </div>
-                        <div class="col-sm-5">
-                            <div class="card-body">
+                        <div className="col-sm-5">
+                            <div className="card-body">
                                 <h6><b>082000232220</b><br/>
                                 <p>Mobile Phone</p>
                                 </h6>
                             </div>
                         </div>
                     </div>
-                    <div class="row mt-2">
-                        <div class="col-sm-1 p-0">
-                            <div class="card-body">
+                    <div className="row mt-2">
+                        <div className="col-sm-1 p-0">
+                            <div className="card-body">
                                 <img src={mapIcon} alt="icon" />
                             </div>
                         </div>
-                        <div class="col-sm-5">
-                            <div class="card-body">
+                        <div className="col-sm-5">
+                            <div className="card-body">
                                 <h6><b>Jl. Ahmad Yani No.10 Surabaya</b> <br/>
                                 <p>Address</p>
                                 </h6>
@@ -73,7 +73,7 @@ function Personal() {
                         </div>
                     </div>
                     <div className="d-flex justify-content-end m-0 p-0">
-                        <button class="btn btn-warning col-5">Change Photo Profil</button>
+                        <button className="btn btn-warning col-5">Change Photo Profil</button>
                     </div>
                 </div>
             </div>
