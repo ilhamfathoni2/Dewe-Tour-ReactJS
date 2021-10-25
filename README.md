@@ -1,6 +1,6 @@
 # Ilham Fathoni DWF26IF
 
-<h3>Branches Pages</h3>
+<h2>Branches Pages</h2>
 
 Branches master = Home Page
 <br>
